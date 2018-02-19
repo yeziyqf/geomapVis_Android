@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //Initialize WebView object.
         webview = new WebView(this);
-        //设置WebView属性，能够执行Javascript脚本
+        //Set properties of WebView to be able to run JavaScript code.
         webview.getSettings().setJavaScriptEnabled(true);
 
         try {
